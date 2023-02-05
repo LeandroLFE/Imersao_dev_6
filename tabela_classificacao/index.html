@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela de Classificação</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="show">
+        <h1>Classificação</h1>
+        <button
+          id="btn-add-player"
+          class="btn-out-table"
+          onclick="addNewPlayer()"
+        >
+          + Player
+        </button>
+        <button
+          id="btn-edit-fields"
+          class="btn-out-table"
+          onclick="toggleEditMode()"
+        >
+          Modo de Edição
+        </button>
+        <button
+          id="btn-custom-mode"
+          class="btn-out-table"
+          onclick="toggleCustomMode('toggle-off')"
+        >
+          Personalizar
+        </button>
+        <button
+          class="btn-out-table"
+          id="btn-clear-table-data"
+          onClick="clearTableData()"
+        >
+          Limpar Tabela
+        </button>
+      </div>
+      <div>
+        <div class="toggle-custom toggle-off" id="custom-container">
+          <div>
+            <div class="amount-by-col">
+              <h2>Personalização</h2>
+              <div id="custom-fields">
+              </div>
+            </div>
+            <div class="btn-container">
+              <button class="btn-out-table" onclick="confirmCustom()">
+                Confirmar Alterações
+              </button>
+              <button onclick="toggleCustomMode('toggle-off', false, true)">Cancelar</button>
+            </div>
+          </div>
+        </div>
+        <div class="show hide">
+          <p class="edition-mode">
+            Modo de edição ligado!
+            <button class="btn-out-table" onclick="confirmEditions()">
+              Confirmar <br> Alterações
+            </button>
+            <button id="btn-edit-fields" onclick="toggleEditMode()">
+              Cancelar
+            </button>
+          </p>
+        </div>
+      </div>
+      <table id="score-table">
+        <thead>
+          <tr id="table-head"></tr>
+        </thead>
+        <tbody id="table-data"></tbody>
+      </table>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

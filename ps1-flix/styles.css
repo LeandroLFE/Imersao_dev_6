@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(70, 112, 49, 0.8),
+    rgba(61, 107, 198, 0.8)
+  ), url("https://cdn.wallpapersafari.com/89/23/IBrGX8.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+button{
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.page-title {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.page-subtitle {
+  margin-top: 5px;
+  font-size: 1.6rem;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 15px auto;
+  width: 60%;
+  padding: 1rem;
+  color: #222;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #222;
+  font-weight: bold;
+  padding: 15px 20px;
+  borde-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:active{
+  background: #da1e26;
+  font-size: .1rem;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right bottom, rgba(2, 2, 2, 1), rgba(1, 1, 1, .9));
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.iframe-container{
+  filter: none;
+  background-image: none;
+}
+
+.overlay--container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.overlay--items{
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.overlay--items button{
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #da1e26;
+  border-color: #da1e26;
+  cursor: pointer;
+}
+
+.overlay--items button:active{
+  background-color: #222;
+  border-color: #222;
+  font-size: .1rem;
+}
+
+.container__games{
+  display: inline-block;
+ }
+
+ .games{
+   display: flex;
+   align-items: flex-end;
+   flex-wrap: wrap;
+ }
+
+ .cover {
+   margin: 0 10px;
+   inline-size: min-content;
+ }
+ 
+
+ .link-trailer{
+  display: block;
+  padding: 2px;
+  margin: 5px;
+ }
+
+ .link-trailer:hover{
+  border: 1px solid #da1e26;
+  border-bottom: .5px dashed #da1e26;
+  cursor: pointer;
+ }
+
+ img {
+   max-height: 18rem;
+   max-width: 18rem;
+ }
+ 
+ .container__delete > button{
+   margin-bottom: 1rem;
+   color: #222;
+   font-weight: bold;
+   padding: .3rem;
+ }
+
+ .container__delete > button:active{
+  font-size: .1rem;
+ }
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

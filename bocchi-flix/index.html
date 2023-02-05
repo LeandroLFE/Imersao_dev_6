@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocchi-Flix</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Bocchi-Flix
+        </h1>
+
+        <h2 class="page-subtitle">Adicionar animes ao catálogo</h2>
+        <div class="inputs">
+            <div>
+                <label for="title">Título:</label><input type="text" name="title" id="title" placeholder="Nome do anime">
+            </div>
+            <div>
+                <label for="image-url">URL da imagem:</label><input type="text" name="image-url" id="image-url" placeholder="Link da imagem terminado em [.jpg, .png, .gif, .CAU, .jpe]">
+            </div>
+            <div>
+                <input type="button" value="Adicionar" id="btn-add">
+            </div>
+        </div>
+        <div class="container-imgs">
+            <div class="imgs"></div>
+        </div>
+    </div>
+</body>
+</html>

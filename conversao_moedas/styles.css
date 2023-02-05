@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background: url('./img/ano-luz.jpg') #000 no-repeat;
+    background-size: cover;
+    color: #222;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 1rem 0;
+    background: rgba(180, 180, 180, .2);
+    box-shadow: .3rem .2rem rgba(8, 8, 8, .1);
+}
+
+.app{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(200, 200, 200, .1);
+}
+
+.container{
+    font-weight: bold;
+    display: flexbox;
+    float: center;
+    flex-direction: row;
+}
+
+.container__input > input{
+    text-align: right;
+}
+
+.container__from,
+.container__input,
+.container__to{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.container__from select,
+.container__to select,
+.container__input input{
+    padding: .8rem 1.5rem;
+    font-size: 2rem;
+}
+

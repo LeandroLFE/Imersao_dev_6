@@ -1,0 +1,211 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: linear-gradient(to top, rgba(60, 97, 97, 0.95), rgba(26, 27, 26, .98)), url("https://www.konami.com/yugioh/duel_links/images/gate/gate_mainvisual.jpg");
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.show {
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.num-players {
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+label,
+p {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  max-width: 4rem;
+}
+
+button {
+  background-color: #002351;
+  color: #f6f6f6;
+  border-radius: 5px;
+}
+
+.btn-out-table {
+  margin: 0 0 10px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #05037f;
+  font-weight: bold;
+}
+.edition-mode *:hover,
+.btn-out-table:hover,
+.btn-inside-table:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.input-header {
+  width: 98%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  border: solid 1px white;
+}
+
+.edition-mode {
+  color: #d61f07;
+  display: flex;
+  align-items: center;
+}
+
+.edition-mode,
+.edition-mode * {
+  font-weight: bolder;
+  text-align: left;
+}
+
+.edition-mode * {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.data-line * {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.data-line {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.plus-minus {
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-inside-table {
+  padding: 10px;
+  margin: 3px;
+}
+
+.plus-minus * {
+  padding: 0.3rem 1rem;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.plus-minus *:hover,
+.btn-container button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.toggle-custom {
+  display: block;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9),
+    rgba(2, 2, 2, 1)
+  );
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 98%;
+  text-align: center;
+  align-items: center;
+}
+
+.toggle-custom button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.amount-by-col {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.amount-by-col input {
+  width: 5%;
+  margin: 0 5rem 0 5px;
+  padding: 7px 0px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.btn-container button {
+  padding: 8px;
+}
+
+#btn-clear-table-data{
+  margin-bottom: 15px;
+  background-color: #222;
+  color: #d61f07;
+}
+
+.result-field{
+  background-color: #05037f;
+  font-size: 20px;
+}
+
+.line-style{
+  background-color: #444;
+}
+
+.hide,
+.toggle-off {
+  display: none;
+}

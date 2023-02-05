@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="gp_TcW93TV-rUPtWirQC" name="Page-1">
+        <mxGraphModel dx="832" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#0A0A0A" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="34" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="585" y="37" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="501" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="578" y="3" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;" parent="1" source="9" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="251" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="47" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;" parent="1" source="14" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="126" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="438" y="93" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="63" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="141" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="31" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="295.0460477895683" y="237.99642463702236" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="32" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="306" y="192" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;" parent="1" source="32" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="16" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="243" y="240" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="33" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="8" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="183" y="286" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="35" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="65" y="411" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="4" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="123" y="332" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="2" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="65" y="378" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="424" width="60" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px;&quot;&gt;Com os números em uma faixa qualquer, &lt;br&gt;para encontrar o número secreto,&lt;br&gt;demoraria log&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp;n (lg n) tentativas para encontrá-lo&lt;br&gt;&lt;br&gt;Isto é possível através da utilização do método da busca binária a qual consiste em testar a metade do número da faixa e ir avançando até encontrar o número desejado&lt;br&gt;&lt;br&gt;Neste exemplo para encontrar o número 1 &lt;br&gt;o primeiro &quot;chute&quot; seria o total da faixa / 2 que seria (1 + 1000) / 2 = 501, &lt;br&gt;depois como 1 é menor do que 501 então novamente chutamos a média entre o menor da faixa e o 501 obtido: (1 + 501) / 2 = 251, &lt;br&gt;e assim por diante até encontrar o número, fiz todos os arredondamentos para o próximo número inteiro. &lt;br&gt;&lt;br&gt;Se contarmos o número de bolinhas necessárias serão a mesma coisa que lg(total) que são 10 arredondando.&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="208" width="417" height="458" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=16;exitX=0.323;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="37" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="355" y="361" as="sourcePoint"/>
+                        <mxPoint x="178" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="38" y="326"/>
+                            <mxPoint x="66" y="243"/>
+                            <mxPoint x="116" y="183"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=16;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2" target="50" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="365.9999999999998" y="303.5419999999999" as="sourcePoint"/>
+                        <mxPoint x="250" y="92" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="449" y="17"/>
+                            <mxPoint x="353" y="43"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="10 tentativas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="152" y="100.5" width="109" height="31" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

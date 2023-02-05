@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PS1-Flix</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">PS1Flix</h1>
+      <p class="page-subtitle">Qual seu jogo de PS1 favorito?</p>
+      <div class="form-wrapper">
+        <input
+          type="text"
+          id="cover-input"
+          name="cover-input"
+          placeholder="Insira endereço (URL) da capa do jogo [.jpg, .jpe, .jpeg, .png, .gif, CAU]"
+        />
+        <input
+          type="text"
+          id="trailer-input"
+          name="trailer-input"
+          placeholder="Insira a URL do trailer do jogo no youtube"
+        />
+        <button id="btn-add">Adicionar jogo</button>
+      </div>
+    </div>
+    <div class="container__games">
+        <div class="games" id="game-list"></div>
+    </div>
+    <div id="overlay" class="overlay">
+      <div class="overlay--container">
+        <div class="overlay--items">
+            <div id="iframe-container" class="iframe-container">
+                <div id="player"></div>
+            </div>
+            <button id="btn-close">X</button>
+        </div>
+      </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
+    </a>
+    <script src="youtubeApi.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
